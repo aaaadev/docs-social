@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="docs/intro">
+            to="/docs/intro">
             🐱 에리냥냥 시작하기
           </Link>
         </div>
@@ -30,8 +30,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`에리냥냥의 잡다한 것들`}
+      description="에리냥냥 인스턴스의 여러가지를 모아놓은 페이지이다냥.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
