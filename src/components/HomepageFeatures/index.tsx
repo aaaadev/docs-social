@@ -10,32 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '광고 없음',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Eri-nyannyan 인스턴스는 Twitter 등의 소셜미디어와 달리 광고를 부착하지 않아요.
+        짜증나는 광고로부터 자유로워지세요.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '한 노트당 최대 3000자 작성 가능',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Twitter의 글자 수 제한에 짜증났던 적이 있으셨나요?
+        Eri-nyannyan 인스턴스는 Calckey와 ActivityPub 프로토콜을 사용하여 널널한 글자 수 제한으로 친구들과 서로 소통할 수 있어요.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '연합 우주',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Eri-nyannyan 인스턴스 외에도 ActivityPub에 기반한 다른 소셜 미디어 인스턴스와 교류할 수 있어요.
       </>
     ),
   },

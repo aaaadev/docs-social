@@ -2,46 +2,33 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 도입
 
-Let's discover **Docusaurus in less than 5 minutes**.
+[에리냥냥 (Eri-nyannyan)](https://social.astar.moe)은 Calckey에 기반한 소셜 미디어 인스턴스에요.
 
-## Getting Started
+## Calckey는 무엇인가요?
 
-Get started by **creating a new site**.
+[Calckey](https://calckey.org)란 [Misskey](https://misskey-hub.net)에서 포크된 ActivityPub 기반 오픈소스 소셜 미디어 프로젝트에요.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+포크 이전의 Misskey와 유사한 유저 인터페이스와 기능들(이모지 리엑션, 인용, 투표 등등)을 가지고 있으며, [Kainoa Kanter](https://calckey.social/@kainoa)님이 주도하고 있어요.
 
-### What you'll need
+Misskey와의 주목할만한 차이점을 정리해보면 다음과 같아요:
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Misskey에 존재하는 많은 버그들을 수정
+- 다른 소셜 미디어(Twitter 등)과 같이 클릭 가능한 노트
+- 개선된 모바일용 UI/UX
+- OCR 이미지 캡션
+- 리엑션과 '좋아요'를 분리
+- 그룹 채팅
+- 고급 검색 기능
+- Mastodon 앱/클라이언트와 호환
 
-## Generate a new site
+## 누가 이 인스턴스를 사용할 수 있나요?
 
-Generate a new Docusaurus site using the **classic template**.
+에리냥냥 (Eri-nyannyan)은 모두가 사용할 수 있는 인스턴스를 지향해요. 
 
-The classic template will automatically be added to your project after you run the command:
+가입은 최대한 모두에게 열어두려고 하지만, 서버의 여건에 따라서 일시적으로 중단될 수 있거나 제한된 사용자만을 받을 수도 있는 부분 양해해주셨으면 좋겠어요.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+현재(2023-07-08 KST) 기준으로는 서버 가입은 **허용되지 않음** 상태에요.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+또한, 이용시에는 반드시 [이용 약관](./tos)을 읽고 이를 준수해야해요. 이 약관에 따른 규정을 위반 시에는 제재가 있을 수 있어요.
