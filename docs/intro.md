@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # 도입
 
-[에리냥냥 (Eri-nyannyan)](https://social.astar.moe)은 Calckey에 기반한 소셜 미디어 인스턴스에요.
+[에리냥냥 (Eri-nyannyan)](https://social.astar.moe)은 Firefish에 기반한 소셜 미디어 인스턴스에요.
 
-## Calckey는 무엇인가요?
+## Firefish는 무엇인가요?
 
-[Calckey](https://calckey.org)란 [Misskey](https://misskey-hub.net)에서 포크된 ActivityPub 기반 오픈소스 소셜 미디어 프로젝트에요.
+[Firefish](https://joinfirefish.org)란 [Misskey](https://misskey-hub.net)에서 포크된 ActivityPub 기반 오픈소스 소셜 미디어 프로젝트에요.
 
-포크 이전의 Misskey와 유사한 유저 인터페이스와 기능들(이모지 리엑션, 인용, 투표 등등)을 가지고 있으며, [Kainoa Kanter](https://calckey.social/@kainoa)님이 주도하고 있어요.
+포크 이전의 Misskey와 유사한 유저 인터페이스와 기능들(이모지 리엑션, 인용, 투표 등등)을 가지고 있으며, [Kainoa Kanter](https://firefish.social/@kainoa)님이 주도하고 있어요.
 
 Misskey와의 주목할만한 차이점을 정리해보면 다음과 같아요:
 
@@ -29,6 +29,6 @@ Misskey와의 주목할만한 차이점을 정리해보면 다음과 같아요:
 
 가입은 최대한 모두에게 열어두려고 하지만, 서버의 여건에 따라서 일시적으로 중단될 수 있거나 제한된 사용자만을 받을 수도 있는 부분 양해해주셨으면 좋겠어요.
 
-현재(2023-07-08 KST) 기준으로는 서버 가입은 **허용되지 않음** 상태에요.
+현재(2023-07-29 KST) 기준으로는 서버 가입은 **허용됨** 상태에요.
 
 또한, 이용시에는 반드시 [이용 약관](./tos)을 읽고 이를 준수해야해요. 이 약관에 따른 규정을 위반 시에는 제재가 있을 수 있어요.
