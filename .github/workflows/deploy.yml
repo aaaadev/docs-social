@@ -6,6 +6,12 @@ on:
       - main
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+  workflow_dispatch:
+    inputs:
+      sync:
+        description: File synchronization
+        required: true
+        default: full
 
 jobs:
   deploy:
@@ -33,3 +39,4 @@ jobs:
           ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           local-path: ./build
           remote-path: ${{ secrets.DEPLOY_REMOTE_PATH }}
+          sync: full
